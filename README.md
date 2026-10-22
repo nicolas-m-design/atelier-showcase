@@ -4,15 +4,15 @@
 
 Atelier is a local workspace for reviewing coded prototypes on a pannable, zoomable canvas. See related screens side by side, focus on one, then enter it to try the real interaction. Each project keeps its own code, styles and data.
 
-[![Watch the 33-second Atelier demo: review five Robot UI screens, open the UI library and choose a branch preview.](assets/atelier-demo-poster.png)](https://nicolas-m-design.github.io/atelier-showcase/)
+[![Watch the 33-second Atelier demo: review five Robot UI screens, open the UI library and choose a branch preview.](assets/atelier-demo-poster.png?v=robot-ui-2)](https://nicolas-m-design.github.io/atelier-showcase/)
 
-**[Watch the 33-second demo](https://nicolas-m-design.github.io/atelier-showcase/)** · [Download the MP4](https://raw.githubusercontent.com/nicolas-m-design/atelier-showcase/main/assets/atelier-demo.mp4)
+**[Watch the 33-second demo](https://nicolas-m-design.github.io/atelier-showcase/)** · [Download the MP4](https://raw.githubusercontent.com/nicolas-m-design/atelier-showcase/main/assets/atelier-demo.mp4?v=robot-ui-2)
 
 *Review a compact Robot UI board, inspect its UI library, then start and stop a local branch preview. [Recording and review notes](docs/demo-video.md).*
 
 [Explore the Marvin project shown here](https://github.com/nicolas-m-design/marvin-showcase) · [See my portfolio](https://nicolasmenard.design)
 
-![Atelier showing five Robot UI screens in Operations and Workspace groups.](assets/canvas-overview.png)
+![Atelier showing five Robot UI screens in Operations and Workspace groups.](assets/canvas-overview.png?v=robot-ui-2)
 
 *Five screens keep the overview easy to scan. Robot UI is the demo project label; the sample product uses fictional fleet data.*
 
