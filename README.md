@@ -4,9 +4,9 @@
 
 Atelier is a local workspace for reviewing coded prototypes on a pannable, zoomable canvas. See related screens side by side, focus on one, then enter it to try the real interaction. Each project keeps its own code, styles and data.
 
-[![Watch the 36-second Atelier demo: pan and zoom across grouped screens, enter a live Marvin preview, switch sites, then return to the canvas.](assets/atelier-demo-poster.png)](https://github.com/nicolas-m-design/atelier-showcase/blob/main/assets/atelier-demo.mp4)
+[![Watch the 36-second Atelier demo: pan and zoom across grouped screens, enter a live Marvin preview, switch sites, then return to the canvas.](assets/atelier-demo-poster.png)](https://nicolas-m-design.github.io/atelier-showcase/)
 
-**[Watch the 36-second demo](https://github.com/nicolas-m-design/atelier-showcase/blob/main/assets/atelier-demo.mp4)** · [Download the MP4](https://raw.githubusercontent.com/nicolas-m-design/atelier-showcase/main/assets/atelier-demo.mp4)
+**[Watch the 36-second demo](https://nicolas-m-design.github.io/atelier-showcase/)** · [Download the MP4](https://raw.githubusercontent.com/nicolas-m-design/atelier-showcase/main/assets/atelier-demo.mp4)
 
 *Move around the canvas, focus a screen, then enter it to switch between Marvin’s two fictional warehouses. Captions sit outside the product preview. [Recording and review notes](docs/demo-video.md).*
 
