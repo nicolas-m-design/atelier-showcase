@@ -1,8 +1,8 @@
 # Atelier showcase
 
-This public showcase helps portfolio visitors understand how Atelier reviews working product screens. Its main task is to let someone watch canvas navigation, entry into a real preview, a clear product interaction and the return to the canvas.
+This public showcase helps portfolio visitors understand how Atelier reviews working product screens. Its main task is to let someone scan a compact screen board, inspect a linked UI library, and see the preview-source chooser start and stop a local branch.
 
-The recording uses Marvin’s fictional fleet and synthetic operational data. It shows the real local applications; it does not claim measured user outcomes or a publicly available Atelier application.
+The demo project is labelled Robot UI and uses Marvin’s fictional fleet with synthetic operational data. The local demo branch refs share the same content; they demonstrate selection and launch, not competing product designs. It shows the real local applications; it does not claim measured user outcomes or a publicly available Atelier application.
 
 ## Demo player scope
 
@@ -16,4 +16,4 @@ Publish only approved showcase documentation, reviewed media, the static player 
 
 ## Quality bar
 
-A first-time visitor can find Play immediately, understand the canvas/interaction boundary from the sequence, and reach the ending without a broken media request. Preserve real app timing and disclose composed captions/cursor treatment. Verify the public player, download and transcript after publishing. Scope is demonstration and viewing, not a landing-page redesign.
+A first-time visitor can find Play immediately, understand screens, linked pages and preview sources from the sequence, and reach the ending without a broken media request. Preserve real app timing and disclose composed captions/cursor treatment. Verify the public player, download and transcript after publishing. Scope is demonstration and viewing, not a landing-page redesign.

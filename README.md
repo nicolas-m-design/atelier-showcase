@@ -4,28 +4,28 @@
 
 Atelier is a local workspace for reviewing coded prototypes on a pannable, zoomable canvas. See related screens side by side, focus on one, then enter it to try the real interaction. Each project keeps its own code, styles and data.
 
-[![Watch the 36-second Atelier demo: pan and zoom across grouped screens, enter a live Marvin preview, switch sites, then return to the canvas.](assets/atelier-demo-poster.png)](https://nicolas-m-design.github.io/atelier-showcase/)
+[![Watch the 33-second Atelier demo: review five Robot UI screens, open the UI library and choose a branch preview.](assets/atelier-demo-poster.png)](https://nicolas-m-design.github.io/atelier-showcase/)
 
-**[Watch the 36-second demo](https://nicolas-m-design.github.io/atelier-showcase/)** · [Download the MP4](https://raw.githubusercontent.com/nicolas-m-design/atelier-showcase/main/assets/atelier-demo.mp4)
+**[Watch the 33-second demo](https://nicolas-m-design.github.io/atelier-showcase/)** · [Download the MP4](https://raw.githubusercontent.com/nicolas-m-design/atelier-showcase/main/assets/atelier-demo.mp4)
 
-*Move around the canvas, focus a screen, then enter it to switch between Marvin’s two fictional warehouses. Captions sit outside the product preview. [Recording and review notes](docs/demo-video.md).*
+*Review a compact Robot UI board, inspect its UI library, then start and stop a local branch preview. [Recording and review notes](docs/demo-video.md).*
 
 [Explore the Marvin project shown here](https://github.com/nicolas-m-design/marvin-showcase) · [See my portfolio](https://nicolasmenard.design)
 
-![Atelier canvas with Marvin’s Analytics and Settings screens arranged in rows, a screen list on the left and zoom controls below.](assets/canvas-overview.png)
+![Atelier showing five Robot UI screens in Operations and Workspace groups.](assets/canvas-overview.png)
 
-*Move between a view of several screens and the details of one. These captures show Atelier running locally with Marvin’s fictional fleet data.*
+*Five screens keep the overview easy to scan. Robot UI is the demo project label; the sample product uses fictional fleet data.*
 
-## From the canvas to a working screen
+## Review screens, components and branches
 
 1. **Choose a project.** The project rail switches between connected prototypes. The sidebar lists their screens and any linked pages, such as a component library.
 2. **Review related screens together.** Screens appear in named groups. Pan, zoom or choose a screen in the sidebar to bring it into view.
 3. **Try the interaction.** Double-click a screen, or enter a selected preview, to use its links, forms and scrolling. Exit the preview to return to navigating the canvas.
-4. **Check another layout size.** Desktop, tablet and mobile presets change the preview viewport. Project sizes restores each screen’s authored dimensions.
+4. **Review components and branches.** Open the project’s UI library, or choose a local branch in Preview source and start a committed preview. Stop returns to Working preview.
 
-![A single Marvin Overview screen in Atelier’s interaction mode, with Exit preview controls and its authored 1440 by 900 viewport shown.](assets/live-preview.png)
+![Robot UI’s linked UI library showing working dashboard charts beside Atelier’s preview-source selector.](assets/ui-library.png)
 
-*The screen remains a running page. Atelier’s presentation controls sit outside it.*
+*The library stays a working project page. Atelier’s presentation controls sit outside it.*
 
 ## Why a separate workspace?
 

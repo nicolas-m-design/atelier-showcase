@@ -1,32 +1,34 @@
 # Atelier demo video
 
-The 36-second video records Atelier running locally with Marvin’s fictional drone fleet. It shows canvas pan and zoom, sidebar focus, entry into a live preview, switching from Warehouse 1 to Warehouse 2 and back, and exit to the grouped canvas.
+The 33-second video shows five Robot UI screens, the linked UI library and the preview-source chooser. It removes the zoom-control demonstration and uses the actual macOS arrow cursor.
 
 ## Recording
 
-Recorded on 22 October 2026 in Chrome at 1710 × 930 CSS pixels, using the real application controls and an isolated project list containing only Marvin. The preview uses its authored 1440 × 900 viewport. The product and its automatic fleet clock run normally.
+Recorded on 22 October 2026 using real local Atelier controls and a private capture fixture. Robot UI is a generic project label. Its five pages and UI library come from Marvin’s unmodified fictional fleet prototype. The screen manifest is curated into Operations and Workspace rows; product code remains in its own project.
 
-The final take is continuous. Browser frames were sampled against elapsed wall time and placed on a 30 fps timeline without speeding up the app. Only 17 ms of unused tail was omitted. A pointer with smooth approach paths was added to the logged input positions because the tab capture omits the native cursor. These paths illustrate the actions; they are not recorded mouse telemetry. Four short captions appear in a separate band below the captured interface.
+The video is an edited walkthrough: an 18-second board/library take, a three-second held cutaway of the actual native macOS branch menu, and a 12-second branch start/stop take. The menu is captured UI, not a drawn replacement. Local main, codex/fleet-review and codex/library-review refs are real demo refs with identical content; no design differences are implied. Starting a branch runs Atelier’s committed-export recipe, validates its manifest and displays its commit. Stop returns to Working preview.
 
-Delivery: silent H.264 MP4, 1710 × 1000, 30 fps, 36 seconds, approximately 1.3 MB, yuv420p and fast-start. The sRGB composition was transformed to Rec.709 limited range. The PNG poster was extracted from the encoded video at two seconds, converted back to sRGB and given an ICC profile.
+Browser frames are sampled against elapsed wall time and placed on a 30 fps timeline without speeding up the app. Short input calls leave sampling gaps. The automation marker is removed from an empty part of the project rail. A real NSCursor.arrow asset, with its native hotspot, follows authored paths to logged action positions; these paths are illustrative, not mouse telemetry. Captions sit below the interface.
+
+Delivery: silent H.264 MP4, 1710 × 1000, 30 fps, 33 seconds, approximately 0.8 MB, yuv420p and fast-start. Browser sRGB pixels and the ICC-converted native capture are transformed to Rec.709 limited range. The poster is decoded from the final movie at two seconds, converted back to sRGB and tagged with an ICC profile.
 
 ## Review
 
-A separate pre-recording critical pass narrowed the tour to established drone screens, required readable pauses and explicit mode changes, and required verification of GitHub playback. Aircraft inspection was tried during rehearsal; browser-capture compositing problems made switching warehouses the clearer final action.
+The pre-recording critical pass required a compact board, readable library sections, actual branch options, a verified branch start/stop, and honest demo-branch scope. The finished file fully decodes all 990 frames and passes format, dimensions, rate, silence, fast-start and Rec.709 checks. Settled and transition frames were inspected for loading, clipping, cursor duplication and unrelated content. This is a feature demonstration, not a performance benchmark or a seamless loop.
 
-The finished export was fully decoded: all 1,080 frames passed the format, dimensions, rate, silence, fast-start and Rec.709 metadata checks. The first export omitted two color metadata fields; the final file corrects those fields without changing the transformed image pixels. Playback was checked at 960 px wide through the ending, and transition frames were inspected for loading states, clipping, unrelated windows and unintended content. The overview establishes screen relationships; the existing stills remain useful for closer inspection.
-
-The public repository contains only the reviewed media and showcase documentation. Raw takes, capture events, reproduction scripts and private source/build identity are retained locally. No application source, machine registry or project setup files are published.
+Raw takes, event logs, native cursor provenance, reproduction scripts and private source/build identity stay local. The public repository contains reviewed media and showcase documentation only.
 
 ## Transcript
 
-- **0–11 seconds:** Pan and zoom across Analytics and Settings screens on Atelier’s canvas.
-- **11–15 seconds:** Choose Drone fleet overview in the sidebar to focus its frame.
-- **15–20 seconds:** Enter the live preview. Atelier displays Exit preview controls outside the product.
-- **20–26 seconds:** Select Warehouse 2. Marvin updates the map to its tank compound, inspection hall and two assigned aircraft.
-- **26–29 seconds:** Return to Warehouse 1 and its active flight.
-- **29–36 seconds:** Exit preview and return to the grouped canvas.
+- **0–4 seconds:** Five Robot UI screens appear in Operations and Workspace groups.
+- **4–8 seconds:** Open UI library and review its colour foundations.
+- **8–12 seconds:** Choose Typography to inspect the product’s text styles.
+- **12–18 seconds:** Choose Dashboard charts to inspect its working components.
+- **18–21 seconds:** A native menu cutaway shows Working preview, main and two local review branches.
+- **21–23 seconds:** codex/fleet-review is selected; Start preview is available.
+- **23–29 seconds:** Start the branch preview. Atelier prepares it and displays the branch and commit.
+- **29–33 seconds:** Stop the managed preview and return to Working preview.
 
 ## Public player
 
-The README poster opens a native HTML video player on this repository’s GitHub Pages site. The player has no application code, account, tracking or external embeds. GitHub’s normal MP4 file page offers a download rather than inline playback, so the direct file remains available as a separate download. The player inherits Atelier’s quiet canvas presentation and Inter typography; it adds no product interface or new visual system.
+The README poster opens a native HTML video player on GitHub Pages. Native controls, download and transcript remain available, with no scripts, account, analytics or external embed. GitHub’s MP4 file page is download-only.
